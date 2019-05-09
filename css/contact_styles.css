@@ -1,0 +1,148 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body{
+    background-image: url('../images/restaurant_view.png'); /* Adds image as bg */
+    background-repeat: no-repeat; /* Makes bg not repeat */
+    background-attachment: fixed; /* Bg is fixed to the back of the page */
+    font-family: 'Source Serif Pro', serif; /* Font type */
+    font-size: 100%; /* Font size */
+    max-width: 100%; /* The width your page takes up */
+    width: 2000px; /* The width your page takes up */
+    margin: auto; /* Gives same maregin on all sides */
+    text-align: center; /* Aligns text to center */
+}
+
+#container {
+    padding: 30px; /* The content will be 30px away from the border */
+    background-color: #ffffff91; /* Background colour */
+    margin: 0 15%; /* Margin of 0% to top and bottom, and 15% to left and right */
+    min-width: 300px; /* Minimum width of container is 300px */
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 3.5em;
+    text-transform: normal;
+    border-bottom: 2px dashed #000000;
+    line-height: 130%;
+}
+
+h2{
+    color: rgb(126, 65, 29);
+    font-family: 'Satisfy', cursive; 
+    line-height: 1em;
+}
+
+main img{ /* The Resturant Image */
+    width: 100%;
+    min-width: 200px;
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+nav{
+    padding-bottom: 20px;
+}
+
+nav ul{
+    list-style-type: none; /* Gets rid of the bullet points */
+    padding-left: 0px; /* No padding on the left hand side */
+}
+
+nav li{
+    display: inline-block; /* Fits everything on the one line if it fits */
+    margin: 13px; /* Spacing between each panel */
+    width: 70px; /* Width of the panel */
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(255, 255, 255, 0.644);
+	padding: 10px 30px; /* 10 px padding for top and bottom of the panels whilst 30px padding for left and right of the panels */
+    border-radius: 25px; /* Degree of curve of the border of panels */
+	text-shadow: 0 1px 1px #666666;
+	box-shadow: .2em .2em .5em #999;
+}
+
+nav li:hover {
+    box-shadow: .3em .3em .5em #999;
+}
+
+a {
+	color: rgb(0, 0, 0); /* Link colour */
+}
+
+a:link {
+	text-decoration: none; /* Removes underline of links */
+}
+
+a:visited{ /* When visited the link previously */
+    text-decoration: none;
+}
+
+/* a:hover must come after a:link and a:visited */
+
+a:hover { /* When hovering over the link */
+	color: rgb(104, 63, 9); 
+	text-shadow: 0 1px 1px rgb(117, 66, 8);
+}
+
+a:active { /* When holding onto the link */
+	color: rgb(0, 38, 255);
+	text-shadow: 0 1px 1px white;
+}
+
+.current_page {
+    color: rgb(251, 21, 21);
+    pointer-events: none;
+  }
+
+footer {
+	color: grey;
+	border-top: 0.5px dashed grey;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.label{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(124, 133, 124);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a dark brown color */
+  input[type=submit]:hover {
+    background-color: #ad4d15;
+  }

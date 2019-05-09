@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact_styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/homepage_styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id=container>
+            <header>
+                    <h1><a href="#">
+                            <img src="images/blackgoose.png" alt="Black Goose Bistro" width="25%">
+                          </a><br>Black Goose Bistro</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="Home" class="current_page">Home</a></li>
+                                <li><a href="menu.html" title="Click to see our menu!">Menu</a></li>
+                                <li><a href="blog.html" title="Check out our latest updates!">Blog</a></li>
+                                <li><a href="contact.html" title="Contact us    today!">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </header> 
+    <main>
+        <div class="form">
+                <form action="action_page.php">
+
+                        <label for="fname"><h2>First Name</h2></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Enter your name here.">
+                    
+                        <label for="lname"><h2>Last Name</h2></label>
+                        <input type="text" id="lname" name="lastname" placeholder="Enter your last name here.">
+                    
+                        <label for="request"><h2>Request</h2></label>
+                        <select id="request" name="request">
+                          <option value="Making a reservation">Making a reservation</option>
+                          <option value="Catering">Catering</option>
+                          <option value="Business enquiries">Business enquiries</option>
+                          <option value="Other">Other (Please specify in message</option>
+                        </select>
+                    
+                        <label for="message"><h2>Message</h2></label>
+                        <textarea id="message" name="message" placeholder="Write your message." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                      </form>
+        </div><!-- ends div class form -->
+    </main>
+    <footer>
+        <!--<h2>Location and Hours</h2>-->
+        <p>Baker Street, Tenneriffe, Brisbane<br>
+        <span class="label">Hours: Monday through Thursday, </span><time datetime="11:00">11am</time> to <time datetime="21:00">9pm</time>,<br><span class="label">Friday and Saturday, </span><time datetime=11:00>11am</time> to <time datetime="00:00">midnight</time></p>
+        <p><small>All content copyright &copy; 2019, Black Goose Bistro</small></p>
+    </footer>
+    </div> <!-- Ends div container -->
+</body>
+</html>

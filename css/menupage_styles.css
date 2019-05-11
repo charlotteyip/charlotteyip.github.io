@@ -131,11 +131,13 @@ footer {
     font-style: normal;
 }
 
-.post{
+#menu{
     border-bottom: 1px dashed grey;
     border-top: 1px dashed grey;
     border-left: 1px dashed grey;
     border-right: 1px dashed grey;
+    /* background-color: rgba(255, 255, 255, 0.671); */
+    padding: 20px;
     border-radius: 10px;
 	padding: 20px 40px 40px 40px;
     box-shadow: .2em .2em .5em #999;
@@ -144,16 +146,6 @@ footer {
     text-align: left;
 }
 
-.post p{
+#menu p{
     text-align: center;
-}
-
-#purse img #salmon img #prawns img{
-    width: 100%;
-	min-width: 150px;
-	max-width: 700px;
-	height: 100%;
-	margin: auto;
-	display: block;
-	border-radius: 10px;
 }

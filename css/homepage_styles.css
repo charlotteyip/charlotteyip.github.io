@@ -24,6 +24,7 @@ body{
 
 header{
     text-align: center;
+    font-family: 'Satisfy', cursive;
 }
 
 header h1{
@@ -36,10 +37,20 @@ header h1{
     line-height: 130%;
 }
 
+main h1{
+    color: rgb(126, 65, 29);
+    font-family: 'Satisfy', cursive; 
+    line-height: 1em;
+}
+
 h2{
     color: rgb(126, 65, 29);
     font-family: 'Satisfy', cursive; 
     line-height: 1em;
+}
+
+h3{
+    text-align: center;
 }
 
 main img{ /* The Resturant Image */

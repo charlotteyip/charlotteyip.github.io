@@ -181,3 +181,16 @@ input[type=phone], select, textarea {
   input[type=submit]:hover {
     background-color: #ad4d15;
   }
+
+  .form{
+    border-bottom: 1px dashed grey;
+    border-top: 1px dashed grey;
+    border-left: 1px dashed grey;
+    border-right: 1px dashed grey;
+    border-radius: 10px;
+	padding: 20px 40px 40px 40px;
+    box-shadow: .2em .2em .5em #999;
+    background-color: #ffffffa1; 
+    width: auto;
+    text-align: left;
+  }

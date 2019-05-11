@@ -28,21 +28,24 @@
                         </nav>
                     </header> 
     <main>
+        <div id="introduction">
         <h1>Contact Us</h1>
+        <p>We'd love to hear from you with your suggestions, experience or any questions you may have.</p>
+        </div><!-- End div introduction -->
         <div class="form">
-                <form action="action_page.php">
+                <form action="php/process_form.php">
 
                         <label for="fname"><h2>First Name</h2></label>
-                        <input type="text" id="fname" name="firstname" placeholder="Enter your name here.">
+                        <input type="text" id="fname" name="firstname" placeholder="Enter your name here." autofocus required>
                     
                         <label for="lname"><h2>Last Name</h2></label>
-                        <input type="text" id="lname" name="lastname" placeholder="Enter your last name here.">
+                        <input type="text" id="lname" name="lastname" placeholder="Enter your last name here." required>
                     
                         <label for="email"><h2>Email Address</h2></label>
-                        <input type="text" id="email" name="email" placeholder="Enter your email address here.">
+                        <input type="email" id="email" name="email" placeholder="Enter your email address here." required>
 
                         <label forLast="mnumber"><h2>Mobile Number</h2></label>
-                        <input type="text" id="mnumber" name="mnumber" placeholder="Enter your contact number here.">
+                        <input type="phone" id="mnumber" name="mnumber" placeholder="Enter your contact number here." required>
 
                         <label for="request"><h2>Request</h2></label>
                         <select id="request" name="request">
